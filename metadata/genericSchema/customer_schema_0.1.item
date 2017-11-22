@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_5z3x4KLgEees8enMvX5q-w" comment="connectionComment" label="connectionLabel" dataPackage="_5z3x4aLgEees8enMvX5q-w"/>
+  <TalendMetadata:GenericPackage xmi:id="_5z3x4aLgEees8enMvX5q-w" dataManager="_5z3x4KLgEees8enMvX5q-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5z3x4qLgEees8enMvX5q-w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x46LgEees8enMvX5q-w" name="CustomerID" id="323" label="CustomerID" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_5z3x5KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x5aLgEees8enMvX5q-w" name="FirstName" id="324" label="FirstName" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x5qLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x56LgEees8enMvX5q-w" name="LastName" id="325" label="LastName" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x6KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x6aLgEees8enMvX5q-w" name="Address" id="326" label="Address" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x6qLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x66LgEees8enMvX5q-w" name="City" id="327" label="City" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x7KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x7aLgEees8enMvX5q-w" name="State" id="328" label="State" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x7qLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x76LgEees8enMvX5q-w" name="Zip" id="329" label="Zip" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x8KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x8aLgEees8enMvX5q-w" name="Phone" id="330" label="Phone" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x8qLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x86LgEees8enMvX5q-w" name="EmailId" id="331" label="EmailId" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x9KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x9aLgEees8enMvX5q-w" name="Gender" id="332" label="Gender" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x9qLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x96LgEees8enMvX5q-w" name="Age" id="333" label="Age" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_5z3x-KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x-aLgEees8enMvX5q-w" name="Physician_Id" id="334" label="Physician_Id" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_5z3x-qLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x-6LgEees8enMvX5q-w" name="Provider_Id" id="335" label="Provider_Id" length="-1" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_5z3x_KLgEees8enMvX5q-w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5z3x_aLgEees8enMvX5q-w" name="Country" id="336" label="Country" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_5z3x_qLgEees8enMvX5q-w"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

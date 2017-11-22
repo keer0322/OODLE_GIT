@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_yhyH8KdMEeeAaZf_-VOWew" comment="connectionComment" label="connectionLabel" dataPackage="_yhyH8adMEeeAaZf_-VOWew"/>
+  <TalendMetadata:GenericPackage xmi:id="_yhyH8adMEeeAaZf_-VOWew" dataManager="_yhyH8KdMEeeAaZf_-VOWew">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_yhyH8qdMEeeAaZf_-VOWew" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH86dMEeeAaZf_-VOWew" name="physician_id" id="1394" label="physician_id" length="10" precision="-1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_yhyH9KdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH9adMEeeAaZf_-VOWew" name="physician_name" id="1395" label="physician_name" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyH9qdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH96dMEeeAaZf_-VOWew" name="address" id="1396" label="address" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyH-KdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH-adMEeeAaZf_-VOWew" name="city" id="1397" label="city" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyH-qdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH-6dMEeeAaZf_-VOWew" name="state" id="1398" label="state" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyH_KdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH_adMEeeAaZf_-VOWew" name="country" id="1399" label="country" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyH_qdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyH_6dMEeeAaZf_-VOWew" name="zip" id="1400" label="zip" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyIAKdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyIAadMEeeAaZf_-VOWew" name="physician_email" id="1401" label="physician_email" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyIAqdMEeeAaZf_-VOWew"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yhyIA6dMEeeAaZf_-VOWew" name="physician_phone" id="1402" label="physician_phone" length="50" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_yhyIBKdMEeeAaZf_-VOWew"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

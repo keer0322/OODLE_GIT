@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_r717cKJ6Eee2eumRGMQQBw" name="hive_emr" id="_7_FyEKJ5Eee2eumRGMQQBw" label="hive_emr" dataPackage="_NgvtQKNyEeeB_5YJcq3gRw" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://ec2-54-91-216-146.compute-1.amazonaws.com:10000/oodle" dbVersionString="STANDALONE" Port="10000" Username="hadoop" Password="" ServerName="ec2-54-91-216-146.compute-1.amazonaws.com" SID="oodle" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="HIVE" StandardSQL="true" UiSchema="oodle">
+    <taggedValue xmi:id="_r72igKJ6Eee2eumRGMQQBw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_sGBLIKJ6Eee2eumRGMQQBw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_sGhhcKJ6Eee2eumRGMQQBw" tag="Status" value=""/>
+    <taggedValue xmi:id="_sGhhcaJ6Eee2eumRGMQQBw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_sGhhcqJ6Eee2eumRGMQQBw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_sGhhc6J6Eee2eumRGMQQBw" tag="Description" value=""/>
+    <taggedValue xmi:id="_sGhhdKJ6Eee2eumRGMQQBw" tag="Author" value=""/>
+    <taggedValue xmi:id="_sGhhdaJ6Eee2eumRGMQQBw" tag="otherParameter"/>
+    <taggedValue xmi:id="_sIeCMKJ6Eee2eumRGMQQBw" tag="DB ProductName" value="Apache Hive"/>
+    <taggedValue xmi:id="_sIeCMaJ6Eee2eumRGMQQBw" tag="DB ProductVersion" value="2.1.0-amzn-0"/>
+    <parameters xmi:id="_r72igaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_DB_PORT"/>
+    <parameters xmi:id="_r72igqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_r72ig6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ec2-52-54-111-144.compute-1.amazonaws.com:8030"/>
+    <parameters xmi:id="_r72ihKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
+    <parameters xmi:id="_r72ihaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ec2-52-54-111-144.compute-1.amazonaws.com:8020"/>
+    <parameters xmi:id="_r72ihqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_USERNAME" value="hadoop"/>
+    <parameters xmi:id="_r72ih6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_lpYiQJtQEeeaF4KtOHYPVg"/>
+    <parameters xmi:id="_r72iiKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value=""/>
+    <parameters xmi:id="_r72iiaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HBASE_VERSION" value="EMR_5_0_0"/>
+    <parameters xmi:id="_r72iiqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ec2-52-54-111-144.compute-1.amazonaws.com:8032"/>
+    <parameters xmi:id="_r72ii6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ec2-52-54-111-144.compute-1.amazonaws.com:10020"/>
+    <parameters xmi:id="_r72ijKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HIVE_VERSION" value="EMR_5_0_0"/>
+    <parameters xmi:id="_r72ijaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_r72ijqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_DB_SERVER" value="ec2-52-54-111-144.compute-1.amazonaws.com"/>
+    <parameters xmi:id="_r72ij6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+    <parameters xmi:id="_r72ikKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_r72ikaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value=""/>
+    <parameters xmi:id="_r72ikqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="AMAZON_EMR"/>
+    <parameters xmi:id="_r72ik6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_MAPRDB_VERSION" value="EMR_5_0_0"/>
+    <parameters xmi:id="_r72ilKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="AMAZON_EMR"/>
+    <parameters xmi:id="_r72ilaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_r72ilqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="AMAZON_EMR"/>
+    <parameters xmi:id="_r72il6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_r72imKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
+    <parameters xmi:id="_r72imaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value=""/>
+    <parameters xmi:id="_r72imqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+    <parameters xmi:id="_r72im6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_r72inKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_r72inaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+    <parameters xmi:id="_r72inqJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+    <parameters xmi:id="_r72in6J6Eee2eumRGMQQBw" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+    <parameters xmi:id="_r72ioKJ6Eee2eumRGMQQBw" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_r72ioaJ6Eee2eumRGMQQBw" key="HIVE_AUTHENTICATION_METASTOREURL" value=""/>
+    <parameters xmi:id="_r72ioqJ6Eee2eumRGMQQBw" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+    <parameters xmi:id="_r72io6J6Eee2eumRGMQQBw" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
+    <parameters xmi:id="_r72ipKJ6Eee2eumRGMQQBw" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
+    <parameters xmi:id="_r73JkKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value=""/>
+    <parameters xmi:id="_r73JkaJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_KEYTAB" value=""/>
+    <parameters xmi:id="_r73JkqJ6Eee2eumRGMQQBw" key="HIVE_EXECUTION_ENGINE"/>
+    <parameters xmi:id="_r73Jk6J6Eee2eumRGMQQBw" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+    <parameters xmi:id="_r73JlKJ6Eee2eumRGMQQBw" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value=""/>
+    <parameters xmi:id="_JRdCUKNyEeeB_5YJcq3gRw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_JRdCUaNyEeeB_5YJcq3gRw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_NgvtQKNyEeeB_5YJcq3gRw" name="oodle" dataManager="_r717cKJ6Eee2eumRGMQQBw"/>
+</xmi:XMI>
