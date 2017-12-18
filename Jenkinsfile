@@ -17,6 +17,7 @@ node {
    }
  stage ('Code Build') {
     sh """pwd
+          ls -ltr
           cd "${WORKSPACE}/target/"
           mvn package -f pom.xml -Dcommandline.workspace="${WORKSPACE}/" -Dcommandline.host=34.200.55.25 -Dcommandline.port=8002 -Dcommandline.user=ankush.deshpande@cognizant.com -DprojectsTargetDirectory="${WORKSPACE}/target"
           """
