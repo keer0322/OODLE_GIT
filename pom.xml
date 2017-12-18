@@ -5,7 +5,7 @@
 
 	<groupId>YOUR_GROUP</groupId>
 	<artifactId>OODLE_GIT</artifactId>
-	<version>SNAPSHOT</version>
+	<version>0.0.0.1-SNAPSHOT</version>
 	<name>OODLE_GIT</name>
 	<packaging>pom</packaging>
 	<description>OODLE_GIT ODT Project</description>
