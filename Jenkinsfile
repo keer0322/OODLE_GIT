@@ -12,6 +12,7 @@ node {
     sh """pwd
           cd "${WORKSPACE}"
           mvn org.talend:ci.builder:6.3.1:generate -f pom.xml -Dcommandline.workspace="${WORKSPACE}/" -Dcommandline.host=34.200.55.25 -Dcommandline.port=8002 -Dcommandline.user=ankush.deshpande@cognizant.com
+          ls -ltr
           """
     sh 'sleep 10s'
    }
