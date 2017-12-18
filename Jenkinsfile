@@ -19,7 +19,7 @@ node {
  stage ('Code Build') {
     sh """pwd
           ls -ltr
-          cd "${WORKSPACE}/target/"
+          cd "${WORKSPACE}/"
           mvn package -f pom.xml -Dcommandline.workspace="${WORKSPACE}/" -Dcommandline.host=34.200.55.25 -Dcommandline.port=8002 -Dcommandline.user=ankush.deshpande@cognizant.com -DprojectsTargetDirectory="${WORKSPACE}/target"
           """
     sh 'sleep 10s'
@@ -27,6 +27,9 @@ node {
    stage ('Code Deploy') {
     echo "Deploying code"
     sh"""
+      cd "${WORKSPACE}/target/"
+      ls -ltr
+      pwd
       mvn deploy –fn –e
     """
    }
