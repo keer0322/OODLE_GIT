@@ -30,7 +30,9 @@ node {
       cd "${WORKSPACE}/target/"
       ls -ltr
       pwd
+      set +e
       mvn deploy –fn –e
+      set +e
     """
    }
 }
