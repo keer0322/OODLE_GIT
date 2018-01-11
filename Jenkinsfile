@@ -31,7 +31,7 @@ node {
       ls -ltr
       pwd
       set +e
-      mvn deploy –fn –e
+      mvn deploy -fn -e
       set +e
     """
    }
