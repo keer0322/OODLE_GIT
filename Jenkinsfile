@@ -13,7 +13,7 @@ node {
     }
     stage ('Code compile') {
         sh """pwd
-          cd "${WORKSPACE}/OODLE"
+          cd "${WORKSPACE}"
           mvn org.talend:ci.builder:6.3.1:generate -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user}
           ls -ltr
           """
@@ -22,7 +22,7 @@ node {
     stage ('Code Build') {
         sh """pwd
           ls -ltr
-          cd "${WORKSPACE}/OODLE"
+          cd "${WORKSPACE}"
           mvn package -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user} -DprojectsTargetDirectory="${WORKSPACE}/OODLE/target"
           """
         sh 'sleep 10s'
@@ -30,7 +30,7 @@ node {
     stage ('Code Deploy') {
         echo "Deploying code"
         sh"""
-      cd "${WORKSPACE}/OODLE/target/"
+      cd "${WORKSPACE}/target/"
       ls -ltr
       pwd
       set +e
